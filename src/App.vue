@@ -2,9 +2,13 @@
     <div class="wrapper">
         <Header />
         <div class="wrapper-content">
-            <div class="container">
-                <router-view />
-            </div>
+            <section>
+                <div class="container">
+                    <div class="view-sm isCenter">
+                        <router-view />
+                    </div>
+                </div>
+            </section>
         </div>
         <Footer />
     </div>
